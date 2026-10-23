@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact et devis – ARBOR'ESCIENCE à Orgeval</title>
+<meta name="description" content="Contactez ARBOR'ESCIENCE à Orgeval pour un devis jardin ou élagage : téléphone, e-mail et formulaire de demande.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="hd"><div class="wrap">
+<a class="logo" href="https://webaunet.github.io/arbor-escience/" aria-label="ARBOR'ESCIENCE – accueil"><img src="images/logo.png" width="150" height="51" alt="ARBOR'ESCIENCE"></a>
+<nav class="nav" id="nav" aria-label="Navigation principale">
+<a href="index.html">Accueil</a><a href="prestations.html">Prestations</a><a href="elagage.html">Élagage</a><a href="conseils.html">Conseils</a><a href="contact.html" aria-current="page">Contact</a>
+</nav>
+<a class="call" href="tel:+33621381189" aria-label="Appeler le 06 21 38 11 89"><svg class="ic" aria-hidden="true"><use href="images/icons.svg#i-phone"/></svg><span>06 21 38 11 89</span></a>
+<button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+</div></header>
+<main id="contenu">
+
+<section class="ph ph-d on-dark"><div class="wrap ph-in">
+<div><span class="kick">Contact</span><h1>Parlons de votre projet</h1><p class="lead">Appelez-nous ou remplissez le formulaire : nous revenons vers vous pour définir votre projet, sur place si besoin.</p></div>
+<div class="big-tel"><a class="tel-card" href="tel:+33621381189"><svg class="ic" aria-hidden="true"><use href="images/icons.svg#i-phone"/></svg><span><small>Téléphone</small><strong>06 21 38 11 89</strong></span></a>
+<a class="tel-card" href="tel:+33640753043"><svg class="ic" aria-hidden="true"><use href="images/icons.svg#i-phone"/></svg><span><small>Second numéro</small><strong>06 40 75 30 43</strong></span></a>
+<a class="tel-card" href="mailto:arborescience@free.fr"><svg class="ic" aria-hidden="true"><use href="images/icons.svg#i-mail"/></svg><span><small>E-mail</small><strong style="font-size:1.3rem">arborescience@free.fr</strong></span></a></div>
+</div></section>
+
+<section class="sec sheet" id="formulaire" style="background:var(--cream)"><div class="wrap row2" style="align-items:start">
+<div class="form-card">
+<div id="form-head"><h2 style="font-size:1.8rem">Demande de devis</h2><p style="color:var(--ink2)">Cinq champs, une minute. Les champs marqués * sont obligatoires.</p></div>
+<form id="devis-form" novalidate>
+<div class="fld"><label for="f-nom">Nom *</label><input id="f-nom" name="nom" type="text" autocomplete="name" required aria-describedby="e-nom"><p class="err" id="e-nom" role="alert"></p></div>
+<div class="fld"><label for="f-tel">Téléphone *</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="e-tel"><p class="err" id="e-tel" role="alert"></p></div>
+<div class="fld"><label for="f-commune">Commune *</label><input id="f-commune" name="commune" type="text" autocomplete="address-level2" required aria-describedby="e-commune"><p class="err" id="e-commune" role="alert"></p></div>
+<div class="fld"><label for="f-besoin">Votre besoin *</label><select id="f-besoin" name="besoin" required aria-describedby="e-besoin"><option value="">Choisir…</option><option>Création de jardin</option><option>Aménagement (terrasse, clôture, arrosage…)</option><option>Entretien du jardin</option><option>Élagage ou taille d'arbres</option><option>Abattage ou démontage</option><option>Coaching jardin</option><option>Autre demande</option></select><p class="err" id="e-besoin" role="alert"></p></div>
+<div class="fld"><label for="f-msg">Message <span class="opt">(facultatif)</span></label><textarea id="f-msg" name="message"></textarea></div>
+<button class="btn btn-d" type="submit">Préparer ma demande</button>
+</form>
+<div class="recap" id="recap" aria-live="polite"><p class="ok"><svg class="ic" aria-hidden="true"><use href="images/icons.svg#i-check"/></svg> Votre demande est prête</p><h2>Choisissez comment nous l’envoyer</h2><p style="color:var(--ink2)">Rien n’est envoyé automatiquement : utilisez l’un des boutons ci-dessous.</p><pre id="recap-text"></pre>
+<div class="acts"><a class="btn btn-d" id="b-sms" href="sms:+33621381189">Envoyer par SMS</a><button class="btn btn-l" type="button" id="b-copy">Copier</button><a class="btn btn-l" href="tel:+33621381189">Appeler</a><a class="btn btn-l" id="b-mail" href="mailto:arborescience@free.fr">Envoyer par e-mail</a></div>
+<p style="margin:18px 0 0"><button class="btn btn-l" type="button" id="b-edit" style="min-height:48px;width:auto">Modifier ma demande</button></p></div>
+</div>
+<div class="info">
+<div class="k"><svg class="ic" aria-hidden="true"><use href="images/icons.svg#i-pin"/></svg><div><h3>Adresse</h3><p>19 rue des Cottages<br>78630 Orgeval</p></div></div>
+<div class="k"><div><h3>Horaires</h3><dl class="hours" style="margin:0"><dt>Lundi au vendredi</dt><dd>8h00 – 19h00</dd><dt>Samedi</dt><dd>8h00 – 17h00</dd></dl></div></div>
+<div class="k"><div><h3>Où intervenons-nous ?</h3><p>Principalement dans l’ouest de l’Île-de-France : Poissy, Chambourcy, Villennes-sur-Seine, Saint-Germain-en-Laye, Versailles, Maisons-Laffitte et alentours.</p></div></div>
+</div></div></section>
+</main>
+<footer class="ft sheet"><div class="wrap">
+<img src="images/logo.png" width="130" height="44" alt="ARBOR'ESCIENCE" loading="lazy">
+<nav aria-label="Pied de page"><a href="prestations.html">Prestations</a><a href="elagage.html">Élagage</a><a href="conseils.html">Conseils</a><a href="contact.html">Contact</a><a href="mentions-legales.html">Mentions légales</a></nav>
+<div>19 rue des Cottages, 78630 Orgeval<br><a href="mailto:arborescience@free.fr" style="padding:0">arborescience@free.fr</a></div>
+<small>© ARBOR'ESCIENCE – Maquette de démonstration</small>
+</div></footer>
+<script src="js/main.js" defer></script>
+<script src="js/contact.js" defer></script>
+</body></html>

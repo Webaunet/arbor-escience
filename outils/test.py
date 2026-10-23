@@ -36,7 +36,7 @@ with sync_playwright() as p:
     import re
     for pg in pages:
         h=open(R+'/'+pg,encoding='utf8').read()
-        for l in re.findall(r'(?:href|src)="(?!https?:|tel:|mailto:)([^"#]+)',h):
+        for l in re.findall(r'(?:href|src)="(?!https?:|tel:|mailto:|sms:)([^"#]+)',h):
             if not os.path.exists(os.path.join(R,l)) and l not in pages:print(pg,'lien-manquant',l)
         t=sum(os.path.getsize(R+'/'+s) for s in set(re.findall(r'src="(images/[^"]+\.jpg)"',h)))+(os.path.getsize(R+'/images/hero.jpg') if pg=='index.html' else 0)
         print(pg,'images ko',t//1024)
