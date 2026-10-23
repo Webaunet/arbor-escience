@@ -166,3 +166,4 @@ p{margin:0 0 1em}.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
 
 .tel-big{display:inline-flex;align-items:center;min-height:48px}.legal a{display:inline-flex;align-items:center;min-height:44px}
 @media(max-width:980px){.row2>img{max-width:min(100%,880px)}}
+@media(max-width:980px){.cards3>*{grid-column:auto!important}}
